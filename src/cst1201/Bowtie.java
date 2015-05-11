@@ -10,6 +10,7 @@ public class Bowtie {
     /**
      * (Fill in a brief description of what method does)
      */
+    
     public void draw() {
         Turtle myTurtle = new Turtle();
         myTurtle.setPenColor("blue");
@@ -20,18 +21,8 @@ public class Bowtie {
         myTurtle.left(135);
         myTurtle.forward(300);
         myTurtle.left(135);
-        myTurtle.forward(425);   
-           }
-    /**
-     * 
-     * Move the turtle forward the specified distance (in pixels)
-     */
-    public void forward(double distance) {
-            myTurtle.forward(distance);
-        myTturtle.setColor(myTurtle.getColor());
+        myTurtle.forward(425); 
         
-            /**
-             * 
-             */
-}
+           }
+                
 }
