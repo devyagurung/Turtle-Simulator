@@ -7,7 +7,7 @@ package cst1201;
 
 /**
  *
- * @author Devya
+ * @author Devya & Niaz
  */
 public class HouseDrawing {
 
@@ -15,25 +15,26 @@ public class HouseDrawing {
      * This method will draw house with 45 degree angle
      */
     public void draw() {
-        double roofDistance = Math.sqrt(10000);
+        double roofDistance = Math.sqrt(31250);
 
+        Turtle myTurtle = new Turtle();
         Turtle myTurtle = new Turtle();
         myTurtle.forward(250);
         myTurtle.left(90);
-        myTurtle.forward(250);
+        myTurtle.forward(200);
         myTurtle.left(90);
         myTurtle.forward(250);
         myTurtle.left(90);
-        myTurtle.forward(250);
+        myTurtle.forward(200);
 
         myTurtle.left(180);
         myTurtle.penUp();
-        myTurtle.forward(250);
+        myTurtle.forward(200);
         myTurtle.right(45);
         myTurtle.penDown();
         myTurtle.forward(roofDistance);
         myTurtle.right(90);
         myTurtle.forward(roofDistance);
-
+       
     }
 }
