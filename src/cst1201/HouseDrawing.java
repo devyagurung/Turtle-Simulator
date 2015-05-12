@@ -18,7 +18,6 @@ public class HouseDrawing {
         double roofDistance = Math.sqrt(31250);
 
         Turtle myTurtle = new Turtle();
-        Turtle myTurtle = new Turtle();
         myTurtle.forward(250);
         myTurtle.left(90);
         myTurtle.forward(200);
